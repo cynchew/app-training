@@ -1,0 +1,38 @@
+<ion-view title="Home" id="page1">
+  <ion-content padding="false" class="has-header">
+    <ion-slides disable-side-menu-drag="" options="{'loop': true}" slider="slider2" delegate-handle="slider2" id="home-slider2" style="width:100%;height:200px;">
+      <ion-slide-page id="home-slide212" style="background:url(&quot;img/9k&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+      <ion-slide-page id="home-slide213" style="background:url(&quot;img/Z&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+      <ion-slide-page id="home-slide214" style="background:url(&quot;img/WE6rB9dZRTiIWQlP5qsA_kitten3.jpg&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+      <ion-slide-page id="home-slide215" style="background:url(&quot;img/jXzHYjKtTAGHS5h1Chti_IMG_4313.JPG&quot;) no-repeat center;background-size:cover;">
+        <h1 id="home-heading1" style="color:#000000;">Slide 4</h1>
+      </ion-slide-page>
+    </ion-slides>
+    <ion-list id="home-list1">
+      <ion-item class="item-icon-left item-icon-right dark" id="home-list-item3">
+        <i class="icon ion-ios-bookmarks"></i>About Us
+        <span class="item-note">List</span>
+        <i class="icon ion-android-bookmark icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item-thumbnail-left" id="home-list-item1" href-inappbrowser="http://teenedge.org/">
+        <img src="img/xVLCkblSQ8mXebMnGb5u_TeenEdgelogopng.png">
+        <h2>Teenedge</h2>
+        <p style="white-space:normal;">An organization for teenagers to develop new skills</p>
+      </ion-item>
+      <ion-item class="item-thumbnail-left" id="home-list-item2" ui-sref="whatAreOurCourses()">
+        <img src="img/istock-619066144.jpgitokqc3nppWL">
+        <h2>Courses</h2>
+        <p style="white-space:normal;">Our courses and requirements</p>
+      </ion-item>
+    </ion-list>
+    <div ng-init="videourl_video1=&quot;https://www.youtube.com/embed/dgGKnDpaPEM?rel=0&amp;showinfo=0&quot;" style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="home-video1">
+      <iframe src="{{videourl_video1}}" frameborder="0" allowfullscreen="" width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    </div>
+    <div class="spacer" style="width: 320px; height: 203px;"></div>
+    <a ui-sref="contactUs()" id="home-button1" class="button button-dark button-block">Contact Us</a>
+    <a href-inappbrowser="https://www.youtube.com/channel/UCL0lXcli42MShUAfcGxqebw" id="home-button5" class="button button-dark button-block">youtube</a>
+    <a href-inappbrowser="https://www.facebook.com/teenedgemalaysia/" id="home-button6" class="button button-dark button-block">FB</a>
+    <div class="spacer" style="width: 320px; height: 136px;"></div>
+    <div id="home-button-bar1" class="button-bar"></div>
+  </ion-content>
+</ion-view>
